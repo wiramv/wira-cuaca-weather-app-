@@ -1,0 +1,22 @@
+@use 'mixin'
+@use 'vari'
+
+.footer
+    text-align: center
+    & &-top
+        @include mixin.flexbox(space-between, 25px, column)
+        width: fit-content
+        margin-inline: auto
+        &-connect
+            @include mixin.flexbox(start, 40px, row)
+            align-items: center
+            color: #333
+            text-decoration: none
+            img
+                width: 30px
+            span
+                font-size: vari.$h4
+    & &-bottom
+        padding: 85px 0
+        font-size: vari.$h4
+        

@@ -1,0 +1,23 @@
+@use 'vari'
+@use 'mixin'
+.set-budget
+    padding: 230px 90px
+    @include mixin.flexbox(start, 20px, column)
+    & &__title
+        font-size: vari.$h5
+    & &__wrapper
+        @include mixin.flexbox(start, 10px, column)
+        input
+            padding: 5px 33px
+            border-radius: 8px
+            width: 330px
+            height: 43px
+            font-size: vari.$h5
+        a
+            color: #333
+            text-decoration: none
+            background-color: vari.$secondary
+            width: fit-content
+            padding: 10px 20px
+            color: white
+            border-radius: 9px

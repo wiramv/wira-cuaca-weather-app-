@@ -1,0 +1,44 @@
+@use 'mx'
+
+.edu
+    padding: 88px
+    transition: all .3s ease-in-out
+    width: fit-content
+    margin-inline: auto
+    @media screen and ( max-width: 460px )
+        padding: 40px 20px
+        
+
+.edu-image
+    a
+        color: white
+        text-decoration: none
+    @include mx.flexbox(space-around, 5rem , row)
+    flex-wrap: wrap
+    & &-thumb
+        height: 293px
+        transform: rotate(45deg)
+        text-align: center
+        transition: all .3s ease-in-out
+        @media screen and ( max-width: 920px )
+            transform: rotate(0)
+            
+        &:hover
+            transform: rotate(0)
+            .edu-image-thumb__text
+                transform: translateY(0)
+                opacity: 100
+        .h5
+            font-weight: 700
+            margin-top: 60px
+        img
+            max-width: 220px
+        &__text
+            transition: all .3s ease-in-out
+            transform: translateY(-100px)
+            opacity: 0
+        @media screen and ( max-width: 920px )
+            &__text
+                transform: translateY(0)
+                opacity: 100
+            

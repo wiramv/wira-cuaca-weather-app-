@@ -1,0 +1,65 @@
+@use 'mx'
+@use 'vari'
+
+.footer
+    background: darken(#008d8f, 22 )
+    color: white
+    padding: 75px 47px
+    @include mx.flexbox(flex-start, 60px, column)
+    align-items: center
+    
+    .footer-1, .footer-2
+        @include mx.flexbox(flex-start, 114px, row)
+        align-items: flex-start
+        @media screen and ( max-width: 1300px )
+            @include mx.flexbox(flex-end, 60px, column)
+            
+    a
+        color: white
+        text-decoration: none
+    .navbar-brand
+        @include mx.flexbox(space-between)
+        align-items: center
+        width: 225px
+        text-decoration: none
+        img
+            width: 36px
+        span
+            font-size: vari.$h6
+            color: white
+            display: block
+    .foot-list
+        @include mx.flexbox(flex-start, 4px, column)
+        div
+            font-size: vari.$h5
+            margin-bottom: 11px
+            font-weight: bold
+        a
+            font-size: vari.$h6
+            @include mx.flexbox(flex-start, 4px, column)
+.footer-top
+    @include mx.flexbox(flex-start, 114px, row)
+    @media screen and ( max-width: 700px )
+        @include mx.flexbox(flex-start, 60px, column)
+
+.footer-line
+    height: 5px
+    width: 100%
+    border-radius: 5px
+    background: white
+
+.footer-social
+    @include mx.flexbox(space-between, 20px, row)
+    max-width: 340px
+    margin-inline: auto
+    img
+        max-width: 100px
+        @media screen and ( max-width: 510px )
+            width: 30px
+@media screen and ( max-width: 460px )
+    .footer a
+        padding: 6px 10px
+        color: white
+        background: #008d8f
+        border-radius: 5px
+                

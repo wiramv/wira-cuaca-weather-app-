@@ -1,0 +1,30 @@
+@use 'mixin'
+@use 'vari'
+
+.money
+    padding: 100px 90px
+    @include mixin.flexbox(start, 15px, column)
+    @media screen and (Max-width : 500px)
+        padding: 50px 10px
+    & &-title
+        font-size: vari.$h4
+    & &-control
+        @include mixin.flexbox(start, 10px, column)
+        input
+            padding: 5px 33px
+            border-radius: 8px
+            width: 330px
+            height: 43px
+            font-size: vari.$h5
+        label
+            font-size: vari.$h5
+    a
+        color: #333
+        text-decoration: none
+        background-color: vari.$secondary
+        width: fit-content
+        padding: 10px 20px
+        color: white
+        border-radius: 9px
+
+        

@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.header {
+  background-color: #1687A7;
+  border-bottom-left-radius: 118px;
+  border-bottom-right-radius: 118px;
+  padding: 80px 160px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-direction: column;
+}
+.header .header-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-direction: row;
+}
+.header .header-top-brand {
+  display: flex;
+  justify-content: start;
+  gap: 0;
+  flex-direction: column;
+}
+.header .header-top-brand-logo {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  flex-direction: row;
+  align-items: baseline;
+  width: 150px;
+}
+.header .header-top-brand-logo span {
+  font-size: 34px;
+  font-weight: bold;
+}
+.header .header-top-brand-logo img {
+  width: 30px;
+  height: 38px;
+}
+.header .header-top-brand-subtitle {
+  font-size: 20px;
+}
+
+.header-bottom {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-direction: row;
+}
+
+.header-btn {
+  width: 444px;
+  border: 3px solid white;
+  border-radius: 16px;
+  padding: 20px;
+}
+.header-btn .header-btn-title {
+  font-size: 20px;
+}
+.header-btn .header-btn-nominal {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+}
+.footer .footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-direction: column;
+  width: fit-content;
+  margin-inline: auto;
+}
+.footer .footer-top-connect {
+  display: flex;
+  justify-content: start;
+  gap: 40px;
+  flex-direction: row;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+.footer .footer-top-connect img {
+  width: 55px;
+}
+.footer .footer-top-connect span {
+  font-size: 34px;
+}
+.footer .footer-bottom {
+  padding: 85px 0;
+  font-size: 34px;
+}
+
+.set-budget {
+  padding: 230px 90px;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  flex-direction: column;
+}
+.set-budget .set-budget__title {
+  font-size: 24px;
+}
+.set-budget .set-budget__wrapper {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+}
+.set-budget .set-budget__wrapper input {
+  padding: 5px 33px;
+  border-radius: 8px;
+  width: 330px;
+  height: 43px;
+  font-size: 24px;
+}
+.set-budget .set-budget__wrapper a {
+  color: #333;
+  text-decoration: none;
+  background-color: #1687A7;
+  width: fit-content;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 9px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  flex-direction: row;
+  padding: 150px 20px;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+.main .main-btn {
+  display: flex;
+  justify-content: start;
+  gap: 35px;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.main .main-btn img {
+  width: 180px;
+  transition: all 0.5s ease-in-out;
+}
+.main .main-btn span {
+  font-size: 34px;
+  color: #333;
+}
+.main .main-btn img:hover {
+  transform: scale(1.1);
+}
+
+.money {
+  padding: 230px 90px;
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  flex-direction: column;
+}
+.money .money-title {
+  font-size: 34px;
+}
+.money .money-control {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+}
+.money .money-control input {
+  padding: 5px 33px;
+  border-radius: 8px;
+  width: 330px;
+  height: 43px;
+  font-size: 24px;
+}
+.money .money-control label {
+  font-size: 24px;
+}
+.money a {
+  color: #333;
+  text-decoration: none;
+  background-color: #1687A7;
+  width: fit-content;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 9px;
+}
+
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=index.css.map */

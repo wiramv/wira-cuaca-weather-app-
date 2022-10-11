@@ -1,0 +1,36 @@
+
+@use "mx"
+
+.char
+    padding: 88px
+    width: 80%
+    max-width: 1300px
+    margin-inline: auto
+    @include mx.flexbox(flex-start, 2rem, column)
+    align-items: center
+    @media screen and ( max-width: 920px )
+        padding: 30px
+        margin-inline: center       
+    .h3
+        width: 100%
+    & &-set
+        @include mx.flexbox(space around, 3rem, row)
+        align-items: center
+        width: 100%
+        @media screen and ( max-width: 460px )
+            @include mx.flexbox(flex-start, 1rem, column)
+            align-items: center          
+        img
+            max-width: 100px
+            max-height: 100px
+        &__text
+            width: 100%
+            @media screen and ( max-width: 920px )
+                max-width: 300px                
+            .h4
+                font-weight: 600
+            &-line
+                height: 4px
+                border-radius: 2px
+                background: white
+
