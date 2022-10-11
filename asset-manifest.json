@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https//wiramv.github.io/wira-resume/static/css/main.159ce0a8.css",
+    "main.js": "/https//wiramv.github.io/wira-resume/static/js/main.096db4e2.js",
+    "static/js/787.9578b72c.chunk.js": "/https//wiramv.github.io/wira-resume/static/js/787.9578b72c.chunk.js",
+    "index.html": "/https//wiramv.github.io/wira-resume/index.html",
+    "main.159ce0a8.css.map": "/https//wiramv.github.io/wira-resume/static/css/main.159ce0a8.css.map",
+    "main.096db4e2.js.map": "/https//wiramv.github.io/wira-resume/static/js/main.096db4e2.js.map",
+    "787.9578b72c.chunk.js.map": "/https//wiramv.github.io/wira-resume/static/js/787.9578b72c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.159ce0a8.css",
+    "static/js/main.096db4e2.js"
+  ]
+}
