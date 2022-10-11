@@ -1,8 +1,8 @@
 {
-  "name": "wira-finance-tracker",
+  "name": "wira-cuaca",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https//wiramv.github.io/wira-resume",
+  "homepage" : "https//wiramv.github.io/wira-cuaca-weather-app-",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
